@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
     "target": "ES2022",
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "outDir": "dist",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "outDir": "dist",
     "rootDir": ".",
     "types": ["node"]
   },
